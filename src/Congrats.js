@@ -18,4 +18,8 @@ const Congrats = (props) =>{
         }
 }
 
+Congrats.propTypes = {
+    success: PropTypes.bool.isRequired, // expect the success value to be a boolean
+};
+
 export default Congrats;

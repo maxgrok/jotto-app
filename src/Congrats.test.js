@@ -1,6 +1,5 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import EnzymeAdapter from 'enzyme-adapter-react-16';
 import Congrats from './Congrats';
 import { findByTestAttr, checkProps} from '../test/testUtils';
 
